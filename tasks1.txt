@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-gfgdfg
-=======
-22
->>>>>>> origin/master
