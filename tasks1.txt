@@ -15,4 +15,4 @@ JavaScript
 MySQL
 1. SELECT count(id) as Количество FROM pc Where hdd=(SELECT Min(hdd) FROM pc)
 2. SELECT id as id1,  (SELECT Count(*) From tbl where p_id=id1) as cnt From tbl 
-3. 
+3. DELETE FROM tbl2 WHERE id not in  (SELECT * FROM (SELECT  min(id) FROM tbl2 group by value) AS t1);
