@@ -1,0 +1,17 @@
+JavaScript
+1.	true
+	false
+	true
+	false
+	true
+	false
+2.	112
+	-11
+	1abv
+	NaN
+3.	1
+4.	10
+	10
+MySQL
+2. SELECT id as id1,  (SELECT Count(*) From tbl where p_id=id1) as cnt From tbl 
+3. 
